@@ -3,255 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darieus Zagara Portfolio</title>
+    <title>Darieus Zagara | Digital Strategist & Developer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJL8BDCVZ4"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-NJL8BDCVZ4', {
-            'anonymize_ip': true,
-            'send_page_view': true,
-            'custom_map': {
-                'dimension1': 'user_type',
-                'dimension2': 'interaction_type'
-            }
-        });
+        gtag('config', 'G-NJL8BDCVZ4');
     </script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <img src="images/profile-picture.jpg" alt="Darieus Zagara II" class="profile-picture">
-            <h1>Darieus Zagara II</h1>
-            <p class="tagline">Communications and Digital Marketing | Full Stack Development | Data Analysis | SCRUM</p>
-            <div class="social-links">
-                <a href="www.linkedin.com/in/darieus-zagara-2823b9a2"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:darieuszagara@yahoo.com"><i class="fas fa-envelope"></i></a>
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="nav-links left">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+            </div>
+            <a href="index.html" class="nav-logo">Darieus Zagara</a>
+            <div class="nav-links right">
+                <a href="work.html">Work</a>
+                <a href="contact.html">Contact</a>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <!-- Bio Section -->
-    <section class="section bio">
-        <div class="bio-container">
-            <div class="bio-column">
-                <h2>About Me</h2>
-                <p class="bio-text">
-                    I am a versatile professional combining expertise in communications, marketing, and technology. With a passion for creating impactful digital experiences and data-driven solutions, I help organizations tell their stories effectively to internal and external stakeholders while leveraging modern technical solutions to drive results.
-                </p>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="Hero background" class="hero-bg">
+                <div class="hero-overlay"></div>
             </div>
-            <div class="bio-column">
-                <h2>Skills & Credentials</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Communications</h3>
-                        <ul>
-                            <li>Content Strategy & Creation</li>
-                            <li>SEO/SEM</li>
-                            <li>Ad Campaigns</li>
-                            <li>Marketing Analytics</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Technical</h3>
-                        <ul>
-                            <li>Full Stack Development</li>
-                            <li>JavaScript, Python, R, SQL, and more</li>
-                            <li>Data Analysis</li>
-                            <li>Web App Development</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Certifications</h3>
-                        <ul>
-                            <li>Certified SCRUM Master</li>
-                            <li>Google Analytics</li>
-                            <li>Active Security Clearance (Public Trust)</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="hero-content">
+                <h1>Bridging storytelling, digital marketing, and strategy.</h1>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Communications and Marketing Section -->
-    <section class="section content-creation">
-        <h2>Communications and Marketing</h2>
-        <div class="grid">
-            <div class="card">
-                <i class="fas fa-bullhorn"></i>
-                <h3>Strategic Communications</h3>
-                <p>Leading multi-channel outreach campaigns for federal agencies, achieving up to 20x increase in engagement through data-driven strategies and targeted messaging.</p>
+        <section class="main-content">
+            <h3>Communications, full-stack development, data analysis, and writing, powered by Agile.</h3>
+            <p>
+                I help organizations tell their stories effectively through data-driven solutions and modern technical expertise. With a unique blend of communications, marketing, and technology skills, I create impactful digital experiences that drive results.
+            </p>
+            <div class="cta-buttons">
+                <a href="work.html" class="cta-primary">View My Work</a>
+                <a href="contact.html" class="cta-secondary">Let's Connect</a>
             </div>
-            <div class="card">
-                <i class="fas fa-chart-line"></i>
-                <h3>Digital Marketing</h3>
-                <p>Managing PPC campaigns, social media strategy, and digital advertising initiatives with proven results, including sustained increases of up to 20x in engagement and 116% increase in clicks.</p>
-            </div>
-            <div class="card">
-                <i class="fas fa-pen-fancy"></i>
-                <h3>Content Development</h3>
-                <p>Creating comprehensive technical documentation, strategic messaging, and multimedia content for federal agencies including FEMA, EPA, and CFPB, with expertise in 508 compliance standards.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Programming Section -->
-    <section class="section programming">
-        <h2>Full-Stack Development</h2>
-        <div class="grid">
-            <div class="card">
-                <i class="fas fa-laptop-code"></i>
-                <h3>Web Applications</h3>
-                <p>Building enterprise-level web applications using Django, Flask, and R Shiny frameworks. Developed mission-critical tools including event tracking systems, workload management solutions, and project management platforms for federal agencies.</p>
-            </div>
-            <div class="card">
-                <i class="fas fa-database"></i>
-                <h3>Database & Backend</h3>
-                <p>Designing and implementing relational databases, ETL pipelines, and REST APIs. Created the Dam Incident Database and multiple internal tracking systems with automated data processing workflows.</p>
-            </div>
-            <div class="card">
-                <i class="fas fa-code"></i>
-                <h3>Frontend Development</h3>
-                <p>Developing interactive dashboards and user interfaces using JavaScript, Python, and R. Built data visualization tools and monitoring systems for FEMA, EPA, and USDA with focus on user experience and accessibility.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Data Analysis Section -->
-    <section class="section data-analysis">
-        <h2>Data Analysis</h2>
-        <div class="grid">
-            <div class="card">
-                <i class="fas fa-chart-bar"></i>
-                <h3>Data Analytics & BI</h3>
-                <p>Developing custom analytics solutions and interactive dashboards using JS, Python, R, Tableau, & PowerBI. Built mission-critical reporting systems for federal agencies.</p>
-            </div>
-            <div class="card">
-                <i class="fas fa-brain"></i>
-                <h3>AI & Machine Learning</h3>
-                <p>Implementing NLP solutions and custom ML models, with expertise in leveraging LLM technologies like OpenAI and Llama. Developed automated analysis pipelines for content classification and trend analysis.</p>
-            </div>
-            <div class="card">
-                <i class="fas fa-calculator"></i>
-                <h3>Statistical Analysis</h3>
-                <p>Conducting advanced statistical modeling and data analysis for research institutions like the Wilson Center and federal agencies. Specializing in predictive analytics, trend forecasting, and performance measurement.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Portfolio Section -->
-    <section class="section projects">
-        <h2>Featured Projects</h2>
-        <div class="carousel-container">
-            <button class="carousel-button prev" aria-label="Previous projects">
-                <i class="fas fa-chevron-left"></i>
-            </button>
-            <div class="project-grid">
-
-                <div class="project-card">
-                    <img src="images/lithium.jpg" alt="Project 4" class="project-image">
-                    <div class="project-content">
-                        <h3>Lithium Market Analysis</h3>
-                        <p class="project-tags">Data Analysis • Visualization</p>
-                        <p class="project-description">Provided the data visualizations of Latin America's lithium market and its role in the global energy transition, focusing on supply chain dynamics and economic implications.</p>
-                        <div class="project-links">
-                            <a href="https://www.wilsoncenter.org/publication/latin-americas-lithium-critical-minerals-and-global-energy-transition" class="project-link"><i class="fas fa-external-link-alt"></i> Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/dcaa.jpg" alt="Project 1" class="project-image">
-                    <div class="project-content">
-                        <h3>DCAA Compliant App</h3>
-                        <p class="project-tags">JavaScript • MySQL</p>
-                        <p class="project-description">Developed a web & mobile application to help a company manage their DCAA compliance, including tracking certifications, submitting reports, and accessing resources.</p>
-                        <div class="project-links">
-                            <span class="project-link disabled"><i class="fas fa-lock"></i> Private Project</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/toolkit.jpg" alt="Project 2" class="project-image">
-                    <div class="project-content">
-                        <h3>Building Codes Toolkit</h3>
-                        <p class="project-tags">Writing • Editing • Marketing</p>
-                        <p class="project-description">Served as project lead and co-author of the Toolkit, which offers guidance and tools to help homeowners and occupants
-                            learn about building codes and how they can make a home more resilient against natural hazards.</p>
-                        <div class="project-links">
-                            <a href="https://www.fema.gov/sites/default/files/documents/fema_building-codes-toolkit.pdf" class="project-link"><i class="fas fa-external-link-alt"></i> Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/moore.jpg" alt="Project 3" class="project-image">
-                    <div class="project-content">
-                        <h3>It Starts With You</h3>
-                        <p class="project-tags">Storyboarding • Scriptwriting • Video Production</p>
-                        <p class="project-description">Co-produced and interviewed the subjects of a video commemorating the 10th anniversary of the 2013 Moore, Oklahoma tornado.</p>
-                        <div class="project-links">
-                            <a href="https://www.youtube.com/watch?v=N2vvtJsLH5A" class="project-link"><i class="fab fa-youtube"></i> Watch Video</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/gsa.jpg" alt="Project 4" class="project-image">
-                    <div class="project-content">
-                        <h3>GSA Ad Campaigns</h3>
-                        <p class="project-tags">Copywriting • Targeting & Audience Segmentation • Campaign Management</p>
-                        <p class="project-description">Led a multi-channel ad campaign for GSA across various platforms. Achieved a remarkable 116.67% increase in clicks while reducing the cost per click by 44%.</p>
-                        <div class="project-links">
-                            <a href="https://www.wilsoncenter.org/publication/latin-americas-lithium-critical-minerals-and-global-energy-transition" class="project-link"><i class="fas fa-external-link-alt"></i> Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/ian.jpeg" alt="Project 3" class="project-image">
-                    <div class="project-content">
-                        <h3>Hurricane Ian</h3>
-                        <p class="project-tags">Crisis Comms • Field Deployment • Content Creation</p>
-                        <p class="project-description">Served as one of two ever Building Science Disaster Support Communications Team members, deployed to the Fort Myers area in the wake of Hurricane Ian..</p>
-                        <div class="project-links">
-                            <a href="https://www.fema.gov/sites/default/files/documents/fema_rm-hurriance-ian-mat-report-12-2023.pdf" class="project-link"><i class="fas fa-external-link-alt"></i> View Report</a>
-                            <a href="https://www.fema.gov/blog/building-science-disaster-support-turning-research-tangible-benefits-all" class="project-link"><i class="fas fa-blog"></i> Read Blog</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <img src="images/playbook.jpg" alt="Project 3" class="project-image">
-                    <div class="project-content">
-                        <h3>Building Codes Adoption Playbook</h3>
-                        <p class="project-tags">Writing • Video Production • Marketing Strategy</p>
-                        <p class="project-description">Project lead and primary author of the Building Codes Adoption Playbook, spearheaded the development of the document and designed the marketing strategy to promote its use.</p>
-                        <div class="project-links">
-                            <a href="https://www.fema.gov/sites/default/files/documents/fema_p-2196-building-codes-adoption-playbook-for-authorities-having-jurisdictions.pdf" class="project-link"><i class="fas fa-book"></i> Read More</a>
-                            <a href="https://www.youtube.com/playlist?list=PL720Kw_OojlJ2cqT16fk5rWc8iAka6hbT" class="project-link"><i class="fab fa-youtube"></i> Watch Series</a>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <button class="carousel-button next" aria-label="Next projects">
-                <i class="fas fa-chevron-right"></i>
-            </button>
-        </div>
-        <div class="carousel-dots"></div>
-    </section>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2024 Darieus Zagara II. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/darieus-zagara-2823b9a2" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <p>© 2024 Darieus Zagara II. All rights reserved.</p>
+        </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
