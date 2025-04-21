@@ -1259,3 +1259,46 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+    .work-card {
+        flex-direction: column;
+        height: auto;
+        min-height: 400px;
+    }
+
+    .work-image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .work-content {
+        width: 100%;
+        padding: 20px;
+        position: relative;
+        transform: none;
+        background: var(--background-color);
+    }
+
+    .work-description {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .work-tags {
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    .work-tag {
+        margin: 5px;
+    }
+
+    .title-and-tags {
+        margin-bottom: 15px;
+    }
+
+    .work-type {
+        margin-bottom: 10px;
+    }
+}
