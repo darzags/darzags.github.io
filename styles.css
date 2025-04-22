@@ -1132,12 +1132,74 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
     .about-image {
         order: -1;
+        margin-bottom: 2rem;
     }
-    
+
+    .about-text {
+        padding: 0 1rem;
+    }
+
+    .about-description {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .skills h2,
+    .tools-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .skill-categories,
+    .tools-categories {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .skill-category h3,
+    .tools-category h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .skill-category ul,
+    .tools-category ul {
+        padding-left: 1rem;
+    }
+
     .education-section {
         margin-top: 2rem;
+        padding: 1.5rem;
+    }
+
+    .education-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .school-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .education-text {
+        margin-top: 0.5rem;
+    }
+
+    .credentials {
+        margin-top: 1.5rem;
+    }
+
+    .credentials ul {
+        padding-left: 1rem;
     }
 }
 
