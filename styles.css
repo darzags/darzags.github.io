@@ -1278,11 +1278,15 @@ footer {
         position: relative;
         transform: none;
         background: var(--background-color);
+        display: flex;
+        flex-direction: column;
+        min-height: 300px;
     }
 
     .work-description {
         display: block;
-        margin-bottom: 15px;
+        margin-bottom: 60px; /* Increased margin to accommodate button */
+        flex-grow: 1;
     }
 
     .work-tags {
@@ -1300,5 +1304,14 @@ footer {
 
     .work-type {
         margin-bottom: 10px;
+    }
+
+    .view-project {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        width: auto;
+        margin: 0;
     }
 }
