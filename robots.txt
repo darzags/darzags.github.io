@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://darzags.github.io/sitemap.xml 
